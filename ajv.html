@@ -1,4 +1,14 @@
 <script type="text/x-red" data-help-name="ajv">
+<p>AJV (Another JSON Validator) Node</p>
+<p>It will validate the <i>payload</i> according to the <i>Schema</i> setted.</p>
+<p>In addition, it sets the following properties of the message:
+  <ul>
+    <li><i>valid</i>: Boolean value to indicate if the payload is valid</li>
+    <li><i>errors</i>: Ajv errors</li>
+  </ul>
+</p>
+<p>In the first output valid messages are sent, while in the second one invalid ones.</p>
+<p><b>Note:</b> Message payload isn't modified</p>
 </script>
 
 <script type="text/x-red" data-template-name="ajv">
